@@ -2,8 +2,6 @@ import "./App.css"
 import { BottomSection } from "./BottomSection"
 
 function App() {
-  const octoberFourth =
-    "https://secondcityus.my.salesforce-sites.com/ticket/#/instances/a0FTP000000fYc12AE"
   const octoberEleventh =
     "https://secondcityus.my.salesforce-sites.com/ticket/#/instances/a0FTP0000008akf2AA"
   const octoberEighteenth =
@@ -19,16 +17,12 @@ function App() {
         shows on the 11th and 18th will be different than the stuff I've done
         previously!
       </h4>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-        }}
-      >
-        <button>
-          <a href={octoberFourth}>October 4th</a>
-        </button>
-        <button>
+      <div>
+        <button
+          style={{
+            marginRight: "10%",
+          }}
+        >
           <a href={octoberEleventh}>October 11th</a>
         </button>
         <button>
